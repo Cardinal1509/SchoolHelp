@@ -1,0 +1,24 @@
+New School Help Release
+1.3.0
+Patch Notes:
+-User no longer has to have Schoology password saved in Chrome! 
+-Tigerview and Clever coming in later update. Rolling out Schoology as a test. :)
+Functions:
+-Opens Tigerview on "Ctrl+Alt+T"
+-Opens Schoology on "Ctrl+Alt+S"
+-Opens Schoology and logs in on "Ctrl+Alt+A"
+-Opens Clever on "Ctrl+Alt+C"
+Known Bugs:
+Script stops listening after the computer has gone to sleep
+After opening the .exe version it will take up to 10 seconds to become responsive
+If you run the automatic login with a saved password, it won't replace the text that is already there
+Important Notes:
+If using the .exe version, make sure to run init.exe to setup the text files otherwise the script will crash
+Info:
+Uses pyautogui to emulate clicks and mouse movement meaning user can't use keyboard/mouse while a website is being opened!
+Working on tests where users may be able to use their mouse while logging in. :)
+Put Schoology user name in text file called "SchoologyUsername.txt"
+Put Schoology password in text file called "SchoologyPassword.txt"
+You can use the "init.py" file to do this(or init.exe)
+
+-Cardinal1509
